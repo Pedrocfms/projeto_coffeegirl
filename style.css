@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 10vh 80vh 10vh;
+}
+
+.container header {
+    display: grid;
+    align-items: center;
+    justify-content: left;
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #F28F3B;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+    padding-left: 50px;
+}
+
+.container nav {
+    display: grid;
+    align-items: center;
+    justify-content: right;
+}
+
+nav {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #F28F3B;
+}
+
+nav ul {
+    margin-right: 50px;
+}
+
+nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+    margin-right: 50px;
+    padding: 3.7vh 1vw 3.7vh 1vw;
+}
+
+nav ul li:hover {
+    background-color: #588B8B;
+}
+
+main {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-image: url(img/fundo1.jpg);
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+main h1 {
+    width: 347px;
+    position: absolute;
+    left: 750px;
+    height: 29px;
+    top: 331px;
+    font-style: normal;
+    font-family: Dancing Script;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    line-height: 29px;
+}
+
+main h2 {
+    position: absolute;
+    top: 370px;
+    left: 800px;
+    font-style: normal;
+    font-family: Dancing Script;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: white;
+}
+
+.botao {
+    position: absolute;
+    left: 800px;
+    top: 420px;
+    text-decoration: none;
+    background-color: #C8553D;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    padding: 11px 25px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.356);
+    font-size: 1.2rem;
+}
+
+.botao:hover {
+    background-color: #588B8B;
+    color: black;
+}
+
+main img {
+    position: absolute;
+    right: 2.69%;
+    left: 53.81%;
+    bottom: 30%;
+}
+
+.container footer {
+    display: grid;
+    align-items: center;
+    justify-content: left;
+}
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #F28F3B;
+}
+
+footer p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: white;
+    margin-left: 50px;
+}
+
+.container .redes {
+    display: flex;
+    align-items: center;
+}
+
+.redes {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #F28F3B;
+}
+
+.redes a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    padding: 0 3vw 0 3vw;
+    margin-left: 8vw;
+}
+
+
+
+
+
